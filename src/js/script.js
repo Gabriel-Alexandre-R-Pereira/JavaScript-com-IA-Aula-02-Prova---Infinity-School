@@ -18,7 +18,7 @@ switch (statusRegistro) {
 };
 
 if ((statusIdade === "Maior de idade") && (statusRegistro === 1)) {
-    console.log("Acesso Poermitido e Completo.");
+    console.log("Acesso Permitido e Completo.");
 } else if ((statusIdade === "Maior de idade") || (statusRegistro === 1)) {
     console.log("Acesso Permitido, porém Limitado.");
 } else {
